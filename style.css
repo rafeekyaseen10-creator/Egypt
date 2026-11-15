@@ -1,0 +1,61 @@
+body{
+    background-color: peachpuff;
+    font-family: 'Helvetica', sans-serif;
+}
+h1{
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    color: slateblue;
+}
+
+nav ul{
+    background-color: sandybrown;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: seashell;
+    padding: 10px;
+}
+
+nav ul li{
+    list-style-type: none; /* no dot beside the item*/
+    display: inline;
+    margin-left: 10px;
+    color: papayawhip;
+}
+
+nav ul li a{
+    text-decoration: none; /*to remove the underline*/
+    color: olive;
+}
+
+div{
+    position: relative;
+    padding-bottom: 40%; /*40% of the div size*/
+}
+
+table, th, td{
+    border: 1px solid honeydew;
+    border-collapse: collapse; /* to merge the borders togther*/
+}
+tr{
+    background-color: palegoldenrod;
+}
+th,td{
+    vertical-align: top;
+    text-align: left;
+    padding: 5px;
+    color: purple;
+}
+
+iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
